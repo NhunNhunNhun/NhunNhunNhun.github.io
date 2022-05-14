@@ -1,0 +1,248 @@
+body{
+    background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/100278/beach-shore-sunset-iphone-wallpaper-ilikewallpaper_com.jpg);
+    background-size: cover;
+    font-size: 23px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: transparent;
+    }
+.left  a{float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 5px;
+        margin-left: 16px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 23px;
+        font-weight: bold;}
+.right a{float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 5px;
+        margin-right: 35px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-size: 23px;
+        font-weight: bold;}
+        
+#imgbgr{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#imgbgr h1{
+    position:absolute;
+    font-size: 60px;
+    top: 130px;
+    left: 4%;
+    color: white;
+    text-shadow: black -1px -2px 0.5em;
+}
+#imgbgr p{
+    position: absolute;
+    font-size: 27px;
+    top: 220px;
+    left: 4%;
+    color: white;
+}
+#imgbgr img{
+    width: 100%;
+    height: auto;
+}
+#mainct {
+    position: relative;
+     width: 100%;
+     height: auto;
+     padding-top: 50px;
+     padding-bottom: 100px;
+     background: #20B2AA;
+}
+#mainct h2{
+    margin-left: 4%;
+    margin-top: -19px;
+    padding-top: 48px;
+}
+#mainct p{
+    font-size: 27px;
+    margin-left: 4%;
+}
+#imgcty div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+.col{
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    margin-left: 4%;
+}
+.container {
+  position: relative;
+  color: #FFF;
+  font-size:1.5rem;
+}
+.chinh_giua {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer{
+     position: relative;
+     width: 100%;
+     height: auto;
+     padding: 50px 100px;
+     background: #20B2AA;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+footer .container{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 992px){
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+@media screen and (max-width: 768px){
+    ul {
+        margin: 0px;
+        background-color: #5F9EA0;
+    }
+    #imgbgr img{
+         display:none;
+    }
+    #imgbgr h1{
+        position:static;
+        font-size: 40px;
+        top: 130px;
+        left: 4%;
+        color: black;
+        text-shadow:none;
+    }
+    #imgbgr p{
+        position: static;
+        font-size: 20px;
+        top: 220px;
+        left: 4%;
+        color: black;
+    }
+    #mainct {
+        background: #20B2AA;
+    }
+    #mainct h2{
+        font-size: 40px;
+        margin-left: 0px;
+        padding-top: 4%;
+    }
+    #mainct p{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    #footer {
+        background-color: white;
+    }
+    #footer h3{
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    ul {
+        margin: 0px;
+        background-color: #5F9EA0;
+    }
+    #imgbgr img{
+         display:none;
+    }
+    #imgbgr h1{
+        position:static;
+        font-size: 40px;
+        top: 130px;
+        left: 4%;
+        color: black;
+        text-shadow:none;
+    }
+    #imgbgr p{
+        position: static;
+        font-size: 20px;
+        top: 220px;
+        left: 4%;
+        color: black;
+    }
+    #mainct {
+        background: #20B2AA;
+    }
+    #mainct h2{
+        font-size: 40px;
+        margin-left: 0px;
+        padding-top: 4%;
+    }
+    #mainct p{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    #footer {
+        background-color: white;
+    }
+    #footer h3{
+        font-size: 40px;
+    }
+}
